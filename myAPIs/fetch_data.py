@@ -18,7 +18,6 @@ class Fetcher:
                 headers.append(key)
 
             dataset =  CSVData.objects.all().order_by(key).values()[:50]
-            # dataset =  CSVData.objects.all().order_by(col for col in headers).values()[:50]
 
         fetched_data = [row for row in dataset]
         return fetched_data
