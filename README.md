@@ -1,4 +1,4 @@
-## Guide to run the API on Postman:
+## Guide to run both APIs on Postman:
 
 **API 1.** To parse a CSV that Inserts the rows into a table.
 - Upload your csv on postman with these required fields: **name, age, birthdate, pan**
